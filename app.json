@@ -5,12 +5,19 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#1A7F6E",
+      "resizeMode": "contain"
+    },
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.adasoy.meditakip"
     },
     "android": {
       "package": "com.adasoy.meditakip",
+      "adaptiveIcon": {
+        "backgroundColor": "#1A7F6E"
+      },
       "permissions": [
         "CAMERA",
         "READ_EXTERNAL_STORAGE",
